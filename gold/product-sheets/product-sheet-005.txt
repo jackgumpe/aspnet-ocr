@@ -1,0 +1,6 @@
+SKU: E-500
+Name: Elbow Epsilon
+Category: Plumbing
+Quantity: 18
+UnitPrice: 3.35
+Confidence: 0.95

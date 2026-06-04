@@ -1,0 +1,122 @@
+[
+  {
+    "sourceFile": "product-sheet-001.txt",
+    "products": [
+      {
+        "sku": "A-100",
+        "name": "Widget Alpha",
+        "category": "Hardware",
+        "quantity": 12,
+        "unitPrice": 4.50
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-002.txt",
+    "products": [
+      {
+        "sku": "B-200",
+        "name": "Bracket Beta",
+        "category": "Hardware",
+        "quantity": 8,
+        "unitPrice": 7.25
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-003.txt",
+    "products": [
+      {
+        "sku": "C-300",
+        "name": "Cable Gamma",
+        "category": "Electrical",
+        "quantity": 25,
+        "unitPrice": 2.10
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-004.txt",
+    "products": [
+      {
+        "sku": "D-400",
+        "name": "Drill Delta",
+        "category": "Tools",
+        "quantity": 3,
+        "unitPrice": 49.99
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-005.txt",
+    "products": [
+      {
+        "sku": "E-500",
+        "name": "Elbow Epsilon",
+        "category": "Plumbing",
+        "quantity": 18,
+        "unitPrice": 3.35
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-006.txt",
+    "products": [
+      {
+        "sku": "F-600",
+        "name": "Filter Zeta",
+        "category": "HVAC",
+        "quantity": 6,
+        "unitPrice": 14.75
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-007.txt",
+    "products": [
+      {
+        "sku": "G-700",
+        "name": "Gasket Eta",
+        "category": "Automotive",
+        "quantity": 40,
+        "unitPrice": 1.85
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-008.txt",
+    "products": [
+      {
+        "sku": "H-800",
+        "name": "Hinge Theta",
+        "category": "Hardware",
+        "quantity": 15,
+        "unitPrice": 5.60
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-009.txt",
+    "products": [
+      {
+        "sku": "I-900",
+        "name": "Insulator Iota",
+        "category": "Electrical",
+        "quantity": 30,
+        "unitPrice": 0.95
+      }
+    ]
+  },
+  {
+    "sourceFile": "product-sheet-010.txt",
+    "products": [
+      {
+        "sku": "J-1000",
+        "name": "Jack Kappa",
+        "category": "Tools",
+        "quantity": 2,
+        "unitPrice": 89.00
+      }
+    ]
+  }
+]

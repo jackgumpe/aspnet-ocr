@@ -1,0 +1,6 @@
+SKU: J-1000
+Name: Jack Kappa
+Category: Tools
+Quantity: 2
+UnitPrice: 89.00
+Confidence: 0.90

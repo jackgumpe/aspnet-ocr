@@ -1,0 +1,6 @@
+SKU: C-300
+Name: Cable Gamma
+Category: Electrical
+Quantity: 25
+UnitPrice: 2.10
+Confidence: 0.97

@@ -1,0 +1,6 @@
+SKU: D-400
+Name: Drill Delta
+Category: Tools
+Quantity: 3
+UnitPrice: 49.99
+Confidence: 0.93

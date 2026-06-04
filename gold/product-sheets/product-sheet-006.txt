@@ -1,0 +1,6 @@
+SKU: F-600
+Name: Filter Zeta
+Category: HVAC
+Quantity: 6
+UnitPrice: 14.75
+Confidence: 0.92

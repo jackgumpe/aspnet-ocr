@@ -1,0 +1,6 @@
+SKU: A-100
+Name: Widget Alpha
+Category: Hardware
+Quantity: 12
+UnitPrice: 4.50
+Confidence: 0.96

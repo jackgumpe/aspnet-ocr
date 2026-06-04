@@ -1,0 +1,6 @@
+SKU: G-700
+Name: Gasket Eta
+Category: Automotive
+Quantity: 40
+UnitPrice: 1.85
+Confidence: 0.98

@@ -1,0 +1,6 @@
+SKU: I-900
+Name: Insulator Iota
+Category: Electrical
+Quantity: 30
+UnitPrice: 0.95
+Confidence: 0.99

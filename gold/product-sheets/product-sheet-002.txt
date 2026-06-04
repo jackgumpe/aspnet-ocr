@@ -1,0 +1,6 @@
+SKU: B-200
+Name: Bracket Beta
+Category: Hardware
+Quantity: 8
+UnitPrice: 7.25
+Confidence: 0.94
