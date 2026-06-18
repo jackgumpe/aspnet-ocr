@@ -1,0 +1,36 @@
+{
+  "packet_id": "ASP-OCR-002A",
+  "report_type": "provider_neutral_ocr_scaffold",
+  "recorded_on": "2026-06-18",
+  "status": "verified",
+  "implemented": [
+    "IOcrProvider provider interface",
+    "IPdfPageImagePipeline page-image pipeline interface",
+    "MockPdfPageImagePipeline test path",
+    "MockOcrProvider test path",
+    "Normalized OCR result JSON contract",
+    "ProviderOcrProcessor evidence writer",
+    "TesseractLocalProvider workstation_deferred stub"
+  ],
+  "not_implemented": [
+    "CloudDeepSeekOcrProvider because endpoint discovery is blocked_unproven",
+    "Tesseract acceleration code",
+    "local OCR benchmark"
+  ],
+  "stage_classification_policy": {
+    "vanilla_tesseract": "CPU-bound until ASP-OCR-002B measures otherwise",
+    "gpu_preprocessing": "GPU-candidate for later packet",
+    "vlm_ocr": "GPU-candidate for later packet",
+    "mock_provider": "not worth measuring"
+  },
+  "business_telemetry_fields": [
+    "CostPerPageUsdEstimate",
+    "WattHoursEstimate",
+    "MeanConfidence",
+    "StageClassification"
+  ],
+  "verification": {
+    "build": "DOTNET_CLI_HOME=/tmp/dotnet-home /tmp/dotnet9/dotnet build --no-restore: pass",
+    "tests": "DOTNET_CLI_HOME=/tmp/dotnet-home /tmp/dotnet9/dotnet test --no-build --no-restore: pass 17/17"
+  }
+}

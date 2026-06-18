@@ -1,0 +1,28 @@
+{
+  "packet_id": "ASP-OCR-002A",
+  "report_type": "cloud_ocr_endpoint_discovery",
+  "recorded_on": "2026-06-18",
+  "status": "blocked_unproven",
+  "discovery_inputs": {
+    "official_docs_checked": [
+      "https://api-docs.deepseek.com/"
+    ],
+    "environment_checks": {
+      "DEEPSEEK_API_KEY": "missing",
+      "DEEPSEEK_OCR_ENDPOINT": "missing",
+      "OCR_PROVIDER_ENDPOINT": "missing"
+    }
+  },
+  "deepseek_ocr_endpoint": {
+    "status": "blocked_unproven",
+    "reason": "No OCR-specific hosted endpoint was proven from local configuration or official API docs checked during ASP-OCR-002A.",
+    "cloud_provider_implemented": false,
+    "do_not_hardcode": true
+  },
+  "decision": {
+    "cloud_deepseek_ocr_provider": "not_implemented",
+    "mock_provider": "allowed_for_tests",
+    "tesseract_local_provider": "workstation_deferred_stub",
+    "next_packet": "ASP-OCR-002B workstation local OCR benchmark"
+  }
+}
