@@ -1,0 +1,28 @@
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 3px 10px;
+  color: var(--action-primary-strong);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: var(--action-primary-soft);
+  border-radius: 999px;
+}
+
+.pill--failed {
+  color: var(--status-integrity-failure);
+  background: var(--status-integrity-failure-surface);
+}
+
+.pill--processing,
+.pill--queued {
+  color: var(--status-processing);
+  background: var(--status-processing-surface);
+}
+
+.pill--complete {
+  color: var(--status-verified);
+  background: var(--status-verified-surface);
+}

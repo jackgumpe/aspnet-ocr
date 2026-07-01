@@ -1,0 +1,78 @@
+ASP-OCR-002B deterministic synthetic fixture
+fixture_id: asp-ocr-002b-017
+seed: 200217
+category: synthetic-legal-text
+document_kind: synthetic-legal
+page_count: 8
+
+--- PAGE 1 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 1: deterministic baseline sentence 812713.
+Checksum token asp-ocr-002b-017-1-200217.
+
+--- PAGE 2 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 2: deterministic baseline sentence 796564.
+Checksum token asp-ocr-002b-017-2-200217.
+
+--- PAGE 3 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 3: deterministic baseline sentence 631033.
+Checksum token asp-ocr-002b-017-3-200217.
+
+--- PAGE 4 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 4: deterministic baseline sentence 131702.
+Checksum token asp-ocr-002b-017-4-200217.
+
+--- PAGE 5 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 5: deterministic baseline sentence 565077.
+Checksum token asp-ocr-002b-017-5-200217.
+
+--- PAGE 6 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 6: deterministic baseline sentence 207798.
+Checksum token asp-ocr-002b-017-6-200217.
+
+--- PAGE 7 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 7: deterministic baseline sentence 729732.
+Checksum token asp-ocr-002b-017-7-200217.
+
+--- PAGE 8 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-6062
+Acme Legal Holdings 33, Plaintiff
+Example Systems 616 LLC, Defendant
+Paragraph 8: deterministic baseline sentence 403150.
+Checksum token asp-ocr-002b-017-8-200217.

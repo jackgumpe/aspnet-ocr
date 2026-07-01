@@ -1,0 +1,29 @@
+.meter {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.meter__label {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  font-weight: 700;
+}
+
+.meter__label span {
+  color: var(--text-muted);
+}
+
+.meter__track {
+  height: 10px;
+  overflow: hidden;
+  background: var(--confidence-track);
+  border-radius: 999px;
+}
+
+.meter__track span {
+  display: block;
+  height: 100%;
+  background: var(--confidence-fill);
+  transition: width var(--motion-med);
+}

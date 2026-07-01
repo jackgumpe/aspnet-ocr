@@ -1,0 +1,20 @@
+:root {
+  --mat-app-background-color: var(--surface-page);
+  --mat-app-text-color: var(--text-primary);
+  --mdc-filled-button-container-shape: var(--radius-sm);
+  --mdc-outlined-button-container-shape: var(--radius-sm);
+  --mdc-filled-button-container-color: var(--action-primary);
+  --mdc-filled-button-label-text-color: var(--on-accent);
+  --mdc-outlined-button-outline-color: var(--surface-border);
+  --mdc-outlined-button-label-text-color: var(--action-primary-strong);
+  --mat-progress-bar-active-indicator-color: var(--action-primary);
+  --mat-progress-spinner-active-indicator-color: var(--action-primary);
+}
+
+mat-progress-bar {
+  display: block;
+  height: 6px;
+  overflow: hidden;
+  background: var(--surface-document-raised);
+  border-radius: 999px;
+}

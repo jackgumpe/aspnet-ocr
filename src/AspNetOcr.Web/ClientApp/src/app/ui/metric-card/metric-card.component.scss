@@ -1,0 +1,35 @@
+.metric {
+  display: grid;
+  gap: var(--space-1);
+  min-height: 112px;
+  padding: var(--space-4);
+  background: var(--surface-panel);
+  border: 1px solid var(--surface-border);
+  border-left: 4px solid var(--action-primary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-1);
+}
+
+.metric--accent {
+  border-left-color: var(--status-processing);
+}
+
+.metric--danger {
+  border-left-color: var(--status-integrity-failure);
+}
+
+span,
+small {
+  color: var(--text-muted);
+}
+
+span {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+strong {
+  color: var(--text-primary);
+  font-size: 1.8rem;
+  line-height: 1.1;
+}

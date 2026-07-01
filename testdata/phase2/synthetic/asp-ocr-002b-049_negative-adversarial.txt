@@ -1,0 +1,26 @@
+ASP-OCR-002B deterministic synthetic fixture
+fixture_id: asp-ocr-002b-049
+seed: 200249
+category: negative-adversarial
+document_kind: negative-adversarial
+page_count: 2
+
+--- PAGE 1 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+UNREADABLE LOW INFORMATION SAMPLE
+Case No: 2026-CV-7457
+Acme Legal Holdings 29, Plaintiff
+Example Systems 466 LLC, Defendant
+Paragraph 1: deterministic baseline sentence 781827.
+Checksum token asp-ocr-002b-049-1-200249.
+Negative marker: intentionally insufficient semantic content for required legal extraction.
+
+--- PAGE 2 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+UNREADABLE LOW INFORMATION SAMPLE
+Case No: 2026-CV-7457
+Acme Legal Holdings 29, Plaintiff
+Example Systems 466 LLC, Defendant
+Paragraph 2: deterministic baseline sentence 730045.
+Checksum token asp-ocr-002b-049-2-200249.
+Negative marker: intentionally insufficient semantic content for required legal extraction.

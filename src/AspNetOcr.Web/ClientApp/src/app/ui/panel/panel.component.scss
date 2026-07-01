@@ -1,0 +1,9 @@
+.panel {
+  padding: var(--space-5);
+}
+
+.panel__header {
+  display: grid;
+  gap: var(--space-1);
+  margin-bottom: var(--space-4);
+}

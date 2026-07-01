@@ -1,0 +1,27 @@
+@use './app/design-system/tokens/foundation';
+@use './app/branding/ledger-scan/ledger-scan.theme';
+@use './app/design-system/tokens/semantic';
+@use './app/design-system/tokens/component';
+@use './app/design-system/material/material-bridge';
+@use './styles/typography';
+@use './styles/motion';
+@use './styles/surfaces';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-page);
+  color: var(--text-primary);
+}
+
+a {
+  color: inherit;
+}

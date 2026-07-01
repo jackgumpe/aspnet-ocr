@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 96" role="img" aria-labelledby="title desc">
+  <title id="title">Contrast Lab mark</title>
+  <desc id="desc">Wide adversarial theme fixture mark.</desc>
+  <rect x="4" y="4" width="252" height="88" rx="14" fill="#07080a" stroke="#d7e23f" stroke-width="8"/>
+  <path d="M34 30h62M34 48h92M34 66h52" stroke="#f6f2e8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M164 24h50l-25 48z" fill="#ff5bd8"/>
+  <circle cx="218" cy="48" r="18" fill="#8ef3c5"/>
+</svg>

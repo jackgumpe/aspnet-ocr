@@ -1,0 +1,21 @@
+:root {
+  --navigation-active-text: var(--action-primary-strong);
+  --navigation-active-background: var(--action-primary-soft);
+  --shell-mark-background: var(--action-primary);
+  --shell-mark-text: var(--on-accent);
+  --shell-mark-size: 42px;
+  --metric-card-border: var(--action-primary);
+  --metric-card-accent-border: var(--status-processing);
+  --metric-card-danger-border: var(--status-integrity-failure);
+  --intake-bay-border: var(--surface-border);
+  --intake-bay-active-border: var(--action-primary);
+  --intake-bay-error-border: var(--status-integrity-failure);
+  --proof-rail-border: var(--palette-engine-line);
+  --proof-rail-scan: var(--status-processing);
+  --proof-rail-latch: var(--status-verified-surface);
+  --proof-rail-seal: var(--status-verified-surface);
+  --proof-rail-node-active: var(--status-verified-surface);
+  --proof-rail-node-idle: color-mix(in srgb, var(--text-evidence) 62%, transparent);
+  --confidence-track: var(--surface-document-raised);
+  --confidence-fill: var(--action-primary);
+}

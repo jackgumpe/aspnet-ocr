@@ -21,6 +21,8 @@ public static class DependencyInjection
         services.AddSingleton<IDocumentRepository>(_ => new SqliteDocumentRepository(databasePath));
         services.AddSingleton<IExcelService, ClosedXmlExcelService>();
         services.AddSingleton<IOcrService>(_ => new TesseractOcrService(tessdataPath));
+        services.AddSingleton<IPdfPageImagePipeline, MockPdfPageImagePipeline>();
+        services.AddSingleton<IOcrProvider, MockOcrProvider>();
         services.AddSingleton<ITelemetrySink, SerilogTelemetrySink>();
 
         return services;

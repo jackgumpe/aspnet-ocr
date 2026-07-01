@@ -1,0 +1,36 @@
+ASP-OCR-002B deterministic synthetic fixture
+fixture_id: asp-ocr-002b-042
+seed: 200242
+category: synthetic-image-heavy
+document_kind: synthetic-image
+page_count: 3
+
+--- PAGE 1 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-3181
+Acme Legal Holdings 96, Plaintiff
+Example Systems 478 LLC, Defendant
+Paragraph 1: deterministic baseline sentence 785197.
+Checksum token asp-ocr-002b-042-1-200242.
+Image-heavy marker: seal, signature block, exhibit photograph, sparse OCR text.
+
+--- PAGE 2 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-3181
+Acme Legal Holdings 96, Plaintiff
+Example Systems 478 LLC, Defendant
+Paragraph 2: deterministic baseline sentence 310583.
+Checksum token asp-ocr-002b-042-2-200242.
+Image-heavy marker: seal, signature block, exhibit photograph, sparse OCR text.
+
+--- PAGE 3 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-3181
+Acme Legal Holdings 96, Plaintiff
+Example Systems 478 LLC, Defendant
+Paragraph 3: deterministic baseline sentence 403384.
+Checksum token asp-ocr-002b-042-3-200242.
+Image-heavy marker: seal, signature block, exhibit photograph, sparse OCR text.

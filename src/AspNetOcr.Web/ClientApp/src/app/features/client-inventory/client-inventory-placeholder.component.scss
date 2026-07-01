@@ -1,0 +1,26 @@
+.page-head {
+  display: grid;
+  gap: var(--space-1);
+  margin-bottom: var(--space-5);
+}
+
+.schema-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.schema-grid span {
+  min-height: 48px;
+  padding: var(--space-3);
+  color: var(--action-primary-strong);
+  font-weight: 760;
+  background: var(--action-primary-soft);
+  border-radius: var(--radius-sm);
+}
+
+@media (max-width: 860px) {
+  .schema-grid {
+    grid-template-columns: 1fr;
+  }
+}

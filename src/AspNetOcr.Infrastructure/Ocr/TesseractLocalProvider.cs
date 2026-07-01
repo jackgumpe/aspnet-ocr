@@ -17,6 +17,6 @@ public sealed class TesseractLocalProvider : IOcrProvider
     {
         cancellationToken.ThrowIfCancellationRequested();
         throw new OcrEngineUnavailableException(
-            "TesseractLocalProvider is a workstation_deferred stub for ASP-OCR-002A; run ASP-OCR-002B before enabling local OCR.");
+            "TesseractLocalProvider is a workstation_deferred stub for ASP-OCR-002B; install Tesseract 5 on the workstation before enabling local OCR.");
     }
 }

@@ -1,0 +1,44 @@
+.page-head {
+  display: grid;
+  gap: var(--space-1);
+  margin-bottom: var(--space-5);
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.upload-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.85fr);
+  gap: var(--space-5);
+}
+
+.retry-row {
+  margin-top: var(--space-4);
+}
+
+.job-card {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.job-card p,
+.muted {
+  color: var(--text-muted);
+}
+
+.error-text {
+  color: var(--status-integrity-failure);
+  font-weight: 700;
+}
+
+@media (max-width: 860px) {
+  .metrics,
+  .upload-layout {
+    grid-template-columns: 1fr;
+  }
+}

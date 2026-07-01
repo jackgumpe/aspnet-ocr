@@ -1,0 +1,330 @@
+{
+  "schema_version": "asp_ocr_006_conformance_report_v2",
+  "status": "pass",
+  "generated_at": "2026-06-26T01:33:43.604Z",
+  "verification_shape": "5_checks_plus_token_sabotage_smoke",
+  "checks": [
+    {
+      "id": "proof_rail_identity_and_confidence_language",
+      "passed": true,
+      "assertions": [
+        {
+          "id": "state_order_frozen",
+          "passed": true,
+          "details": {
+            "expectedOrder": "['RESULT_CREATED', 'EVIDENCE_WRITTEN', 'INGESTED', 'QUERYABLE', 'LIVE_VERIFIED']"
+          }
+        },
+        {
+          "id": "live_verified_definition_frozen",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "review_seal_present",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "unsampled_live_verified_not_incomplete",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "rail_scan_and_latch_identity_present",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "engine_confidence_language_only",
+          "passed": true,
+          "details": {}
+        }
+      ]
+    },
+    {
+      "id": "dependency_rules_and_material_public_api",
+      "passed": true,
+      "assertions": [
+        {
+          "id": "ocr_evidence_features_do_not_import_branding",
+          "passed": true,
+          "details": {
+            "featureBrandingImports": []
+          }
+        },
+        {
+          "id": "design_system_has_no_product_layer_imports",
+          "passed": true,
+          "details": {
+            "designSystemProductImports": []
+          }
+        },
+        {
+          "id": "design_system_scss_imports_nothing",
+          "passed": true,
+          "details": {
+            "designSystemScssImports": []
+          }
+        },
+        {
+          "id": "branding_imports_no_feature_logic",
+          "passed": true,
+          "details": {
+            "brandingForbiddenImports": []
+          }
+        },
+        {
+          "id": "material_uses_public_tokens_no_internal_selectors",
+          "passed": true,
+          "details": {
+            "materialInternalSelectors": [],
+            "materialTokenOutsideBridge": []
+          }
+        },
+        {
+          "id": "no_registry_loader_manifest_or_plugin_surface",
+          "passed": true,
+          "details": {
+            "registryCreep": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "semantic_token_system_and_missing_token_guard",
+      "passed": true,
+      "assertions": [
+        {
+          "id": "all_used_tokens_are_defined",
+          "passed": true,
+          "details": {
+            "missingUsedTokens": []
+          }
+        },
+        {
+          "id": "required_semantic_and_component_tokens_present",
+          "passed": true,
+          "details": {
+            "missingRequiredTokens": []
+          }
+        },
+        {
+          "id": "no_css_variable_fallbacks",
+          "passed": true,
+          "details": {
+            "fallbackTokenUses": []
+          }
+        },
+        {
+          "id": "token_sabotage_smoke_fails_closed",
+          "passed": true,
+          "details": {
+            "passed": true,
+            "sabotage": "delete --surface-engine",
+            "expectedFailure": "missing_required_token",
+            "observedMissingTokens": [
+              "--surface-engine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "product_config_and_client_home_build_time_seam",
+      "passed": true,
+      "assertions": [
+        {
+          "id": "product_config_schema_v1_typed",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "invalid_config_throws_no_silent_fallback",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "client_home_build_time_component_seam",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "client_home_emits_intents_only",
+          "passed": true,
+          "details": {}
+        }
+      ]
+    },
+    {
+      "id": "motion_accessibility_theme_and_budget_conformance",
+      "passed": true,
+      "assertions": [
+        {
+          "id": "contrast_ratios_meet_4_5_to_1",
+          "passed": true,
+          "details": {
+            "ledgerContrast": [
+              {
+                "foregroundToken": "--text-primary",
+                "backgroundToken": "--surface-page",
+                "foreground": "#17201c",
+                "background": "#f8faf7",
+                "ratio": 15.88
+              },
+              {
+                "foregroundToken": "--text-primary",
+                "backgroundToken": "--surface-document",
+                "foreground": "#17201c",
+                "background": "#ffffff",
+                "ratio": 16.67
+              },
+              {
+                "foregroundToken": "--text-muted",
+                "backgroundToken": "--surface-page",
+                "foreground": "#58635f",
+                "background": "#f8faf7",
+                "ratio": 5.95
+              },
+              {
+                "foregroundToken": "--text-evidence",
+                "backgroundToken": "--surface-engine",
+                "foreground": "#ddf0e3",
+                "background": "#101916",
+                "ratio": 15.05
+              },
+              {
+                "foregroundToken": "--status-processing",
+                "backgroundToken": "--status-processing-surface",
+                "foreground": "#8a5a00",
+                "background": "#f7e7be",
+                "ratio": 4.83
+              },
+              {
+                "foregroundToken": "--status-verified",
+                "backgroundToken": "--status-verified-surface",
+                "foreground": "#2b7443",
+                "background": "#ddf0e3",
+                "ratio": 4.79
+              },
+              {
+                "foregroundToken": "--status-integrity-failure",
+                "backgroundToken": "--status-integrity-failure-surface",
+                "foreground": "#b13a32",
+                "background": "#f8dfdc",
+                "ratio": 4.71
+              }
+            ],
+            "contrastLabContrast": [
+              {
+                "foregroundToken": "--text-primary",
+                "backgroundToken": "--surface-page",
+                "foreground": "#f6f2e8",
+                "background": "#07080a",
+                "ratio": 17.92
+              },
+              {
+                "foregroundToken": "--text-primary",
+                "backgroundToken": "--surface-document",
+                "foreground": "#f6f2e8",
+                "background": "#101114",
+                "ratio": 16.89
+              },
+              {
+                "foregroundToken": "--text-muted",
+                "backgroundToken": "--surface-page",
+                "foreground": "#c7c0b5",
+                "background": "#07080a",
+                "ratio": 11.1
+              },
+              {
+                "foregroundToken": "--text-evidence",
+                "backgroundToken": "--surface-engine",
+                "foreground": "#0e3a2b",
+                "background": "#f3eedf",
+                "ratio": 10.92
+              },
+              {
+                "foregroundToken": "--status-processing",
+                "backgroundToken": "--status-processing-surface",
+                "foreground": "#ffb84d",
+                "background": "#3a2607",
+                "ratio": 8.37
+              },
+              {
+                "foregroundToken": "--status-verified",
+                "backgroundToken": "--status-verified-surface",
+                "foreground": "#8ef3c5",
+                "background": "#0e3a2b",
+                "ratio": 9.51
+              },
+              {
+                "foregroundToken": "--status-integrity-failure",
+                "backgroundToken": "--status-integrity-failure-surface",
+                "foreground": "#ff8c9a",
+                "background": "#451219",
+                "ratio": 7
+              }
+            ],
+            "failingContrast": []
+          }
+        },
+        {
+          "id": "statuses_are_not_color_only",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "keyboard_focus_and_200_percent_reflow_have_smoke_coverage",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "scan_beam_active_processing_only",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "reduced_motion_static_highlights_keep_state",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "one_theme_per_build",
+          "passed": true,
+          "details": {}
+        },
+        {
+          "id": "bundle_size_within_budget",
+          "passed": true,
+          "details": {
+            "bundleBytes": 484330,
+            "budgetBytes": 1000000
+          }
+        },
+        {
+          "id": "css_size_recorded_within_budget",
+          "passed": true,
+          "details": {
+            "cssBytes": 5931,
+            "budgetBytes": 200000
+          }
+        }
+      ]
+    }
+  ],
+  "token_sabotage_smoke": {
+    "passed": true,
+    "sabotage": "delete --surface-engine",
+    "expectedFailure": "missing_required_token",
+    "observedMissingTokens": [
+      "--surface-engine"
+    ]
+  },
+  "budgets": {
+    "bundle_bytes": 484330,
+    "bundle_budget_bytes": 1000000,
+    "css_bytes": 5931,
+    "css_budget_bytes": 200000
+  }
+}

@@ -1,0 +1,22 @@
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --motion-fast: 120ms ease;
+    --motion-med: 180ms ease;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 1ms linear;
+    --motion-med: 1ms linear;
+    --motion-scan-duration: 1ms;
+    --motion-decorative-scale: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+  }
+}

@@ -9,6 +9,8 @@ public sealed record NormalizedOcrResult(
     string ProviderId,
     int PageCount,
     decimal MeanConfidence,
+    decimal? CharacterErrorRate,
+    decimal? WordErrorRate,
     IReadOnlyList<NormalizedOcrPage> Pages,
     IReadOnlyList<OcrFieldResult> Fields,
     OcrProviderTelemetry Telemetry,

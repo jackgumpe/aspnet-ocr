@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">LedgerScan mark</title>
+  <desc id="desc">Document outline with verified evidence rail.</desc>
+  <rect x="20" y="12" width="72" height="104" rx="10" fill="#ffffff" stroke="#006b5b" stroke-width="8"/>
+  <path d="M39 42h34M39 62h34M39 82h24" stroke="#17201c" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="96" cy="88" r="22" fill="#2f7d49"/>
+  <path d="m84 88 8 8 18-20" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

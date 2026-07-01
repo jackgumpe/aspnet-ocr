@@ -1,0 +1,86 @@
+ASP-OCR-002B deterministic synthetic fixture
+fixture_id: asp-ocr-002b-035
+seed: 200235
+category: synthetic-scanned-layout
+document_kind: synthetic-scanned
+page_count: 8
+
+--- PAGE 1 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 1: deterministic baseline sentence 221136.
+Checksum token asp-ocr-002b-035-1-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 2 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 2: deterministic baseline sentence 433592.
+Checksum token asp-ocr-002b-035-2-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 3 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 3: deterministic baseline sentence 692806.
+Checksum token asp-ocr-002b-035-3-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 4 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 4: deterministic baseline sentence 153677.
+Checksum token asp-ocr-002b-035-4-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 5 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 5: deterministic baseline sentence 996778.
+Checksum token asp-ocr-002b-035-5-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 6 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 6: deterministic baseline sentence 859742.
+Checksum token asp-ocr-002b-035-6-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 7 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 7: deterministic baseline sentence 936922.
+Checksum token asp-ocr-002b-035-7-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.
+
+--- PAGE 8 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-7043
+Acme Legal Holdings 32, Plaintiff
+Example Systems 160 LLC, Defendant
+Paragraph 8: deterministic baseline sentence 862683.
+Checksum token asp-ocr-002b-035-8-200235.
+Layout artifact: columns, stamps, marginalia, and rotated footer simulated in text metadata.

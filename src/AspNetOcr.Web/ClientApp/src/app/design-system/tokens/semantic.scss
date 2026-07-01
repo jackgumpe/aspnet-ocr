@@ -1,0 +1,23 @@
+:root {
+  --surface-page: var(--palette-paper-1);
+  --surface-document: var(--palette-paper-0);
+  --surface-document-raised: var(--palette-paper-2);
+  --surface-engine: var(--palette-engine-900);
+  --surface-panel: var(--palette-paper-0);
+  --surface-border: var(--palette-line-200);
+  --text-primary: var(--palette-ink-900);
+  --text-muted: var(--palette-ink-650);
+  --text-evidence: var(--palette-success-120);
+  --action-primary: var(--palette-action-600);
+  --action-primary-strong: var(--palette-action-750);
+  --action-primary-soft: var(--palette-action-100);
+  --status-processing: var(--palette-attention-650);
+  --status-processing-surface: var(--palette-attention-120);
+  --status-verified: var(--palette-success-650);
+  --status-verified-surface: var(--palette-success-120);
+  --status-integrity-failure: var(--palette-danger-650);
+  --status-integrity-failure-surface: var(--palette-danger-120);
+  --focus-ring-color: var(--palette-focus-600);
+  --on-accent: var(--palette-paper-0);
+  --shell-header-background: color-mix(in srgb, var(--surface-page) 94%, transparent);
+}

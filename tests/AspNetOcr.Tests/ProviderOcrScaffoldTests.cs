@@ -43,6 +43,8 @@ public sealed class ProviderOcrScaffoldTests
         Assert.Equal("mock-ocr", normalized.ProviderId);
         Assert.Equal(2, normalized.PageCount);
         Assert.True(normalized.MeanConfidence >= 0.90m);
+        Assert.Equal(0m, normalized.CharacterErrorRate);
+        Assert.Equal(0m, normalized.WordErrorRate);
         Assert.Contains(normalized.Fields, field => field is { Name: "caseNumber", Value: "2026-CV-1001" });
         Assert.Contains(normalized.Fields, field => field is { Name: "documentTitle", Required: true });
         Assert.Equal("CPU-bound", normalized.Telemetry.StageClassification);
@@ -165,6 +167,8 @@ public sealed class ProviderOcrScaffoldTests
                 Descriptor.ProviderId,
                 pages.Length,
                 0.925m,
+                0m,
+                0m,
                 pages,
                 fields,
                 telemetry,

@@ -1,0 +1,50 @@
+:root {
+  --palette-paper-0: #ffffff;
+  --palette-paper-1: #f7faf6;
+  --palette-paper-2: #eef4ef;
+  --palette-ink-900: #17201c;
+  --palette-ink-650: #58635f;
+  --palette-line-200: #d7ded9;
+  --palette-action-600: #006b5b;
+  --palette-action-750: #004f45;
+  --palette-action-100: #d9f1ea;
+  --palette-attention-650: #8a5a00;
+  --palette-attention-120: #f7e7be;
+  --palette-success-650: #2f7d49;
+  --palette-success-120: #ddf0e3;
+  --palette-danger-650: #b13a32;
+  --palette-danger-120: #f8dfdc;
+  --palette-focus-600: #1d6be3;
+  --palette-engine-900: #101916;
+  --palette-engine-750: #19312b;
+  --palette-engine-line: #31554c;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "DM Mono", "SFMono-Regular", Consolas, monospace;
+
+  --shadow-1: 0 1px 2px rgb(23 32 28 / 8%);
+  --shadow-2: 0 8px 24px rgb(23 32 28 / 11%);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --motion-fast: 120ms ease;
+  --motion-med: 180ms ease;
+  --motion-scan-duration: 900ms;
+  --motion-decorative-scale: scale(1.012);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 1ms linear;
+    --motion-med: 1ms linear;
+    --motion-scan-duration: 1ms;
+    --motion-decorative-scale: none;
+  }
+}

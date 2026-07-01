@@ -1,0 +1,15 @@
+ASP-OCR-002B deterministic synthetic fixture
+fixture_id: asp-ocr-002b-009
+seed: 200209
+category: phase1-carry-forward
+document_kind: phase1-carry-forward
+page_count: 1
+
+--- PAGE 1 ---
+IN THE SUPERIOR COURT OF TEST COUNTY
+COMPLAINT
+Case No: 2026-CV-5718
+Acme Legal Holdings 39, Plaintiff
+Example Systems 651 LLC, Defendant
+Paragraph 1: deterministic baseline sentence 373572.
+Checksum token asp-ocr-002b-009-1-200209.

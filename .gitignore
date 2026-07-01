@@ -5,5 +5,10 @@ obj/
 artifacts/
 logs/
 data/
+node_modules/
+dist/
+test-results/
+playwright-report/
+.angular/
 *.user
 *.suo

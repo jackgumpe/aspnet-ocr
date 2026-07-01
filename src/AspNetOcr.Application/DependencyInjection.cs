@@ -17,6 +17,7 @@ public static class DependencyInjection
         services.AddSingleton<IValidator<DocumentUploadRequest>, DocumentUploadValidator>();
         services.AddSingleton<ProductSheetParser>();
         services.AddScoped<PipelineOrchestrator>();
+        services.AddScoped<ProviderOcrProcessor>();
         return services;
     }
 }

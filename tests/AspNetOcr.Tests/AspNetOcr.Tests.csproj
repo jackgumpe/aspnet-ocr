@@ -3,6 +3,7 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="../../src/AspNetOcr.Api/AspNetOcr.Api.csproj" />
     <ProjectReference Include="../../src/AspNetOcr.Application/AspNetOcr.Application.csproj" />
     <ProjectReference Include="../../src/AspNetOcr.Domain/AspNetOcr.Domain.csproj" />
     <ProjectReference Include="../../src/AspNetOcr.Infrastructure/AspNetOcr.Infrastructure.csproj" />
